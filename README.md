@@ -1,4 +1,4 @@
-The notebook can be viewed [here](https://nbviewer.org/github/anonymous-icst-2022/anonymous-icst-2022/blob/main/Decoder.ipynb).
+The notebook can be viewed [here](https://anonymous-fse2022.github.io/anonymous-fse2022/playground/lab?path=decoder.ipynb).
 
 This is the replication package of Decoder experiments.
 Decoder is a black-box fuzzer that generates syntactically valid program inputs using failure feedback.
