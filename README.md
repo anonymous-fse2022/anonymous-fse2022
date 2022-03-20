@@ -1,3 +1,9 @@
+# Playground
+
+We have setup a completely in-browser playground for exploring the algorithm and examples [here](https://anonymous-fse2022.github.io/anonymous-fse2022/playground/lab?path=decoder.ipynb)
+
+# Replication Notebook
+
 The notebook can be viewed [here](https://anonymous-fse2022.github.io/anonymous-fse2022/playground/lab?path=decoder.ipynb).
 
 This is the replication package of Decoder experiments.
