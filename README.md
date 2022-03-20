@@ -19,7 +19,7 @@ VM specs are:
 * RAM: 4 GB 
 * Swap: 1 GB
 
-To startup the VM, go into the directory where bfuzzer.box and Makefile are stored. Run the following command:
+To startup the VM, go into the directory where decoder.box and Makefile are stored. Run the following command:
 
     make box-add
 
@@ -35,17 +35,17 @@ To run pfuzzer one time for 1 hour do:
 
     make run_pfuzzer
 
-To run bfuzzer one time for 1 hour do:
+To run decoder one time for 1 hour do:
 
-    make run_bfuzzer
+    make run_decoder
 
 Evaluation results for pfuzzer can be found under the folder: `chains/src/pfuzzer/samples`
 
-Evaluation results for bfuzzer can be found under the folder: `chains/src/bfuzzer/examples`
+Evaluation results for decoder can be found under the folder: `chains/src/decoder/examples`
 
-For example, evaluation results for bfuzzer experiment on mjs can be found under the folder: `chains/src/bfuzzer/examples/mjs`
+For example, evaluation results for decoder experiment on mjs can be found under the folder: `chains/src/decoder/examples/mjs`
 
-Bfuzzer results include:
+Decoder results include:
 `inputs.json`: Generated inputs in json format.
 `inputs.txt`: generated inputs in chronological order.
 `times.txt`: Cummulative time, where each time stamp corresponds to an input generation.
@@ -53,7 +53,7 @@ Bfuzzer results include:
 `coverage.html`: Total coverage achieved.
 
 ## Jupyter Notebook
-Another way to run the experiment is through the Jupyter notebook file `PBFuzzer.ipynb`
+Another way to run the experiment is through the Jupyter notebook file `decoder.ipynb`
 Once in the VM home directory, run the following command to start Jupyter notebook:
 
     ./startjupyter.sh &
