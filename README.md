@@ -20,6 +20,8 @@ VM specs are:
 
 ## Running experiments:
 
+After strating the vitual machine and once you are in the home directory, you can start executing the exeriments.
+
 * To run decoder experiments on pyparser subjects for one hour, run:
 ```bash
 make run_ppdecoder RUNTIME=1
@@ -57,5 +59,6 @@ python3 show_table_2.py
 
 
 **Note**: Running all the experiments may take 3 to 4 days. Therefore, it can be useful to run experiments in steps, as shown by the commands above.
+
 **Note**: Running one run experiment for one hour will take roughly 2 hours to complete. The user needs to account for the additional execution time of evaluation and compilation scripts.
 
