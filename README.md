@@ -12,11 +12,11 @@ VM specs are:
 
 ## VM File structure:
 
-* afl: Contains all afl experiments, including both waypoints and dumb mode.
-* pfuzzer: Contains all pfuzzer experiment files.
-* decoder: Contains decoder experiment files for subjects ini, csv, json, tinyc, and mjs.
-* ppdecoder: Contains decoder experiment files for pyparser subjects.
-* results: Stores experiment results for all runs for decoder, pfuzzer, and afl.
+* **afl**: Contains all afl experiments, including both waypoints and dumb mode.
+* **pfuzzer**: Contains all pfuzzer experiment files.
+* **decoder**: Contains decoder experiment files for subjects ini, csv, json, tinyc, and mjs.
+* **ppdecoder**: Contains decoder experiment files for pyparser subjects.
+* **results**: Stores experiment results for all runs for decoder, pfuzzer, and afl.
 
 ## Running experiments:
 
@@ -45,17 +45,17 @@ make afl-wp RUNTIME=1 R=10
 make afl-dm RUNTIME=1 R=10
 ```
 
-* To show evaluation results table, run:
+* To extract and display evaluation results table, run:
 ```bash
 python3 show_table_*.py
 ```
 
-* Table numbers correspond to table numbers in the paper. For example to show replication results of Table 2, run:
+* Table numbers correspond to table numbers in the paper. For example to show replication results in Table 2, run:
 ```bash
 python3 show_table_2.py
 ```
 
 
-**Note**: Running all the experiments can take few days. Therefore, it can be useful to run experiments in steps, as shown by the commands above.
+**Note**: Running all the experiments may take 3 to 4 days. Therefore, it can be useful to run experiments in steps, as shown by the commands above.
 **Note**: Running one run experiment for one hour will take roughly 2 hours to complete. The user needs to account for the additional execution time of evaluation and compilation scripts.
 
