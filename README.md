@@ -19,6 +19,18 @@ VM specs are:
 * **ppdecoder**: Contains decoder experiment files for pyparser subjects.
 * **results**: Stores experiment results for all runs for decoder, pfuzzer, and afl.
 
+## Launching the VM:
+
+In the same directory where you downloaded the box file and the Makefile. Run the following command:
+```bash
+make box-add
+```
+
+The command will take some time to complete. Next, connect to the new virtual machine:
+```bash
+make box-connect2
+```
+
 ## Running experiments:
 
 After strating the vitual machine and once you are in the home directory, you can start executing the experiments.
