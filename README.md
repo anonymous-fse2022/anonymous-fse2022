@@ -20,7 +20,7 @@ VM specs are:
 
 ## Running experiments:
 
-After strating the vitual machine and once you are in the home directory, you can start executing the exeriments.
+After strating the vitual machine and once you are in the home directory, you can start executing the experiments.
 
 * To run decoder experiments on pyparser subjects for one hour, run:
 ```bash
