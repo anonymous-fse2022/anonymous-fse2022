@@ -9,6 +9,7 @@ VM specs are:
 * CPU: 8 cores
 * RAM: 15 GB 
 * Swap: 1 GB
+* Disk: 96 GB
 
 ## VM File structure:
 
